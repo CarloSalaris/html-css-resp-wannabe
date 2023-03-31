@@ -156,13 +156,12 @@ img {
     
     h2 {
         font-size: 2.5rem;
-        color: #fffffe;
     }
     
     h3 {
         font-size: 2rem;
     }
-   
+
     img {
         height: auto;
     }
@@ -184,9 +183,23 @@ img {
 
     .col {
         min-width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 60px;
     }
 
-    .card {
+    /************************************************
+        SITE SECTIONS
+    ************************************************/
+
+    .steps {
+        margin-bottom: 0;
+        padding-bottom: 1px;
+
     }
+    
+    .why-us {
+        background-color: #222222;
+        padding: 50px 0;
+        margin-bottom: 0;
+    }
+
 }
