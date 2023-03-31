@@ -23,7 +23,7 @@ h3 {
 
 h1 {
     margin-bottom: 3rem;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
 }
 
 h2 {
@@ -131,9 +131,62 @@ img {
 /* FORMATO TABLET (max 768px) */
 
 @media all and (max-width: 768px) {
-    
+
     .container {
         max-width: 100%;
     }
 
+}
+
+/* FORMATO MOBILE (max 480px) */
+
+@media all and (max-width: 480px) {
+
+    /*************************************************
+        GENERAL STYLES
+    *************************************************/
+
+    body {
+        font-size: 1.2em;
+    }
+
+    h1 {
+        font-size: 3.2rem; 
+    }
+    
+    h2 {
+        font-size: 2.5rem;
+        color: #fffffe;
+    }
+    
+    h3 {
+        font-size: 2rem;
+    }
+   
+    img {
+        height: auto;
+    }
+
+    /************************************************
+        UTILITIES
+    ************************************************/
+
+    /* LAYOUT */
+
+    .container {
+        padding: 0 40px;
+
+    }
+
+    .row {
+        display: block;
+    }
+
+    .col {
+        min-width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .card {
+    }
 }
