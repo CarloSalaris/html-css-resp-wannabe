@@ -132,7 +132,7 @@ img {
 
 @media all and (max-width: 768px) {
 
-    .container {
+    * {
         max-width: 100%;
     }
 
@@ -170,7 +170,8 @@ img {
     /* LAYOUT */
 
     .container {
-        padding: 0 40px;
+        width: 100%;
+        max-width: 480px;
 
     }
 
@@ -178,8 +179,8 @@ img {
         display: block;
     }
 
-    .col {
-        min-width: 100%;
+    .lessons .col, .steps .col, .why-us .col  {
+        width: 100%;
         margin-bottom: 80px;
     }
 
@@ -210,7 +211,7 @@ img {
 /* 768px < formato < 1160 */
 
 @media all and (min-width:768px) {
-    * {
+    /* * {
         max-width: 100%;
-    }
+    } */
 }
