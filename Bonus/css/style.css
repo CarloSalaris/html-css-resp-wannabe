@@ -132,7 +132,7 @@ img {
 
 @media all and (max-width: 768px) {
 
-    * {
+    .container {
         max-width: 100%;
     }
 
@@ -211,7 +211,7 @@ img {
 /* 768px < formato < 1160 */
 
 @media all and (min-width:768px) {
-    /* * {
+    * {
         max-width: 100%;
-    } */
+    }
 }
